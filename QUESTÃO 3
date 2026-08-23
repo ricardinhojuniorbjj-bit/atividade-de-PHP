@@ -1,0 +1,11 @@
+?php
+//comando de saida de dados
+$n1 = readline("digite o primeiro número: ");
+$n2 = readline("digite o segundo número: ");
+
+$subtração = $n1 - $n2;
+$multiplicação = $n1 * $n2;
+
+echo "resultado da subtração:  " . $subtração;
+echo "\n resultado da mul<tiplicação: " . $multiplicação;
+?>
