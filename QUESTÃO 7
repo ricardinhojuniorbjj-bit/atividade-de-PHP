@@ -1,0 +1,9 @@
+<?php
+//comando de saida de dados
+$valorUnitrio = readline("Digite o valor unitário (R$): ");
+$quantidade = readline("Digite a quantidade adquirida ");
+ 
+   $Valortotal= $valorUnitrio *$quantidade;
+
+echo "Valor total da compra:R$ ". $Valortotal;
+?>
