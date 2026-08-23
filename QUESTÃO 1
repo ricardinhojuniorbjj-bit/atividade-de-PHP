@@ -1,0 +1,5 @@
+# a  <?php
+echo "digite um número: ";
+$n1 = readline();
+echo "seu número é  " . $n1;
+?>
